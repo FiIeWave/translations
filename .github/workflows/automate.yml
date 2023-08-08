@@ -3,6 +3,7 @@ name: Automate Repository
 on:
   push:
     paths:
+      - "/en/home.json"
       - "contributors.json"
       - "*.ts"
   workflow_dispatch:
@@ -24,7 +25,7 @@ jobs:
           add: "*.json"
           message: "chore: update automatic languages"
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{  secrets.GITHUB_TOKEN  }}
 
       - name: Update README
         run: deno run --allow-read --allow-write calculate.ts
@@ -34,4 +35,4 @@ jobs:
           add: "*.md"
           message: "chore: re-generate README"
         env:
-          GITHUB_TOKEN: ${{ secrets.TOKEN }}
+          GITHUB_TOKEN: ${{  secrets.GITHUB_TOKEN  }}
