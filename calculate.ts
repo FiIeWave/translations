@@ -14,7 +14,7 @@ function count(obj: any, acc = 0) {
 }
 
 const threshold =
-  count(JSON.parse(await Deno.readTextFile("en/home.json"))) - 4;
+  count(JSON.parse(await Deno.readTextFile("en/common.json"))) - 4;
 const below_threshold: string[] = [];
 
 for await (const entry of Deno.readDir(".")) {
