@@ -10,7 +10,7 @@ Please note that this table **only includes languages that are currently availab
 
 |   | Language | Maintainers | Contributors |
 |:-:|---|---|---|
-|🇺🇸|English (Simplified) / en|||
+|🇺🇸|English (Simplified) / en|[@GravityScriptsV2](https://github.com/GravityScriptsV2)||
 |🇫🇷|Français / fr|||
 |🇩🇪|Deutsch / de|||
 |🇮🇹|Italiano / it|||
