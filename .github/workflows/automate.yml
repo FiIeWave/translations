@@ -24,7 +24,7 @@ jobs:
           add: "*.json"
           message: "chore: update automatic languages"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
 
       - name: Update README
         run: deno run --allow-read --allow-write calculate.ts
@@ -34,4 +34,4 @@ jobs:
           add: "*.md"
           message: "chore: re-generate README"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
