@@ -1,7 +1,11 @@
 {
   "en": {
     "maintainer": ["GravityScriptsV2"],
-    "users": []
+    "users": [
+      {
+        "github": "GravityScriptsV2"
+      }
+    ]
   },
   "fr": {
     "maintainer": [],
