@@ -11,7 +11,7 @@ Please note that this table **only includes languages that are currently availab
 |   | Language | Maintainers | Contributors |
 |:-:|---|---|---|
 |🇺🇸|English (Simplified) / en_US|[@GravityScriptsV2](https://github.com/GravityScriptsV2)||
-|🇹🇭|Thai / th|[@PunMCDEV](https://github.com/PunEpicStudio)||
+|🇹🇭|Thai / th|[@PunMCDEV](https://github.com/PunEpicStudio)|[@blueskychan-dev](https://github.com/blueskychan-dev)|
 |🇮🇹|Italiano / it|||
 |🇸🇪|Svenska / sv||[@RealDebugg](https://github.com/RealDebugg)|
 |🇫🇷|Français / fr|||
