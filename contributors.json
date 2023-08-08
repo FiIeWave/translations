@@ -13,7 +13,11 @@
   },
   "it": {
     "maintainer": [],
-    "users": []
+    "users": [
+      {
+        "github": "JVN3S"
+      }
+    ]
   },
   "es": {
     "maintainer": [],
