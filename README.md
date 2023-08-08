@@ -15,6 +15,6 @@ Please note that this table **only includes languages that are currently availab
 |🇮🇹|Italiano / it|||
 |🇸🇪|Swedish / sv|||
 |🇫🇷|Français / fr|||
-|🇪🇸|Español / es|||
+|🇪🇸|Español / es||[@JVN3S](https://github.com/JVN3S)|
 
 If you would like to maintain a language, please [open an issue](https://github.com/FiIeWave/translations/issues/new/choose) with your request.
