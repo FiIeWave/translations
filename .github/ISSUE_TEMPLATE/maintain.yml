@@ -7,7 +7,7 @@ body:
     id: language
     attributes:
       label: What language do you want to maintain?
-      description: You will be in charge of reviewing strings and can assist in assigning roles
+      description: You will be in charge of reviewing strings
     validations:
       required: true
   - type: input
