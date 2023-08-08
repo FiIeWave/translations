@@ -3,7 +3,7 @@ name: Automate Repository
 on:
   push:
     paths:
-      - "/en/common.json"
+      - "./en/*.json"
       - "contributors.json"
       - "*.ts"
   workflow_dispatch:
