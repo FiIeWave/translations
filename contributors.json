@@ -1,0 +1,42 @@
+{
+  "en": {
+    "maintainer": [],
+    "users": []
+  },
+  "fr": {
+    "maintainer": [],
+    "users": []
+  },
+  "de": {
+    "maintainer": [],
+    "users": []
+  },
+  "it": {
+    "maintainer": [],
+    "users": []
+  },
+  "es": {
+    "maintainer": [],
+    "users": [
+      {
+        "github": "JVN3S"
+      }
+    ]
+  },
+  "se": {
+    "maintainer": [],
+    "users": [
+      {
+        "github": "RealDebugg"
+      }
+    ]
+  },
+  "th": {
+    "maintainer": [],
+    "users": [
+      {
+        "github": "blueskychan-dev"
+      }
+    ]
+  }
+}
