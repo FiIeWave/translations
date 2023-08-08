@@ -14,7 +14,7 @@ function count(obj: any, acc = 0) {
 }
 
 const threshold =
-  count(JSON.parse(await Deno.readTextFile("en/common.json"))) - 4;
+  count(JSON.parse(await Deno.readTextFile("en/common.json"))) - 10;
 const below_threshold: string[] = [];
 
 for await (const entry of Deno.readDir(".")) {
@@ -29,9 +29,18 @@ for await (const entry of Deno.readDir(".")) {
         const text = await Deno.readTextFile(`./${fn}/${subFn}`);
         const data = JSON.parse(text);
 
-        // if (count(data) < threshold) {
-        isBelowThreshold = true;
-        // }
+        let isEmptyField = false;
+
+        for (const key in data) {
+          if (data[key] === "") {
+            isEmptyField = true;
+            break;
+          }
+        }
+
+        if (isEmptyField) {
+          isBelowThreshold = true
+        }
       }
     }
 
@@ -60,30 +69,36 @@ await Deno.writeTextFile(
 );
 
 // generate new README
-import { Languages } from './Languages.ts';
+import { Languages } from "./Languages.ts";
 
 const u = (s) => `[@${s}](https://github.com/${s})`;
 
 const table = `|   | Language | Maintainers | Contributors |
 |:-:|---|---|---|
 ${Object.keys(Languages)
-.map(key => {
+  .map((key) => {
     const lang = Languages[key];
-    const maintainers = [], contribs = [];
-    
+    const maintainers = [],
+      contribs = [];
+
     const entry = contributors[key];
     if (entry) {
-        for (const user of entry.users) {
-            if (entry.maintainer.includes(user.github)) {
-                maintainers.push(user.github);
-            } else {
-                contribs.push(user.github);
-            }
+      for (const user of entry.users) {
+        if (entry.maintainer.includes(user.github)) {
+          maintainers.push(user.github);
+        } else {
+          contribs.push(user.github);
         }
+      }
     }
 
-    return `|${lang.emoji}|${lang.display} / ${key}|${maintainers.map(u).join(' ')}|${contribs.map(u).join(' ')}|`;
-})
-.join('\n')}`;
+    return `|${lang.emoji}|${lang.display} / ${key}|${maintainers
+      .map(u)
+      .join(" ")}|${contribs.map(u).join(" ")}|`;
+  })
+  .join("\n")}`;
 
-await Deno.writeTextFile("README.md", (await Deno.readTextFile("README.template.md")).replace(/{{TABLE}}/g, table));
+await Deno.writeTextFile(
+  "README.md",
+  (await Deno.readTextFile("README.template.md")).replace(/{{TABLE}}/g, table)
+);
