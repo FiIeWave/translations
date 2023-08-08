@@ -8,14 +8,6 @@ The following table shows a list of languages, their contributors and maintainer
 
 Please note that this table **only includes languages that are currently available in the app**.
 
-|   | Language | Maintainers | Contributors |
-|:-:|---|---|---|
-|🇺🇸|English (Simplified) / en|||
-|🇫🇷|Français / fr|||
-|🇩🇪|Deutsch / de|||
-|🇮🇹|Italiano / it|||
-|🇪🇸|Español / es||[@JVN3S](https://github.com/JVN3S)|
-|🇸🇪|Svenska / sv||[@RealDebugg](https://github.com/RealDebugg)|
-|🇹🇭|ไทย / th||[@blueskychan-dev](https://github.com/blueskychan-dev)|
+{{TABLE}}
 
 If you would like to maintain a language, please [open an issue](https://github.com/FiIeWave/translations/issues/new/choose) with your request.
