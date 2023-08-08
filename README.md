@@ -12,6 +12,7 @@ Please note that this table **only includes languages that are currently availab
 |:-:|---|---|---|
 |🇺🇸|English (Simplified) / en_US|[@GravityScriptsV2](https://github.com/GravityScriptsV2)||
 |🇹🇭|Thai / th|[@PunMCDEV](https://github.com/PunEpicStudio)||
+|🇮🇹|Italiano / it|||
 |🇸🇪|Swedish / sv|||
 |🇫🇷|Français / fr|||
 |🇪🇸|Español / es|||
