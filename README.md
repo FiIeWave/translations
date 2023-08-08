@@ -10,7 +10,7 @@ Please note that this table **only includes languages that are currently availab
 
 |   | Language | Maintainers | Contributors |
 |:-:|---|---|---|
-|🇺🇸|English (Simplified) / en||[@JVN3S](https://github.com/JVN3S)|
+|🇺🇸|English (Simplified) / en|||
 |🇫🇷|Français / fr|||
 |🇩🇪|Deutsch / de|||
 |🇮🇹|Italiano / it|||
