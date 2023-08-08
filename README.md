@@ -12,7 +12,8 @@ Please note that this table **only includes languages that are currently availab
 |:-:|---|---|---|
 |🇺🇸|English (Simplified) / en_US|[@GravityScriptsV2](https://github.com/GravityScriptsV2)||
 |🇹🇭|Thai / th|[@PunMCDEV](https://github.com/PunEpicStudio)||
-|🇪🇸|Español / es|||
+|🇸🇪|Swedish / sv|||
 |🇫🇷|Français / fr|||
+|🇪🇸|Español / es|||
 
 If you would like to maintain a language, please [open an issue](https://github.com/FiIeWave/translations/issues/new/choose) with your request.
