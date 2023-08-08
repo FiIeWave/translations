@@ -13,7 +13,7 @@ Please note that this table **only includes languages that are currently availab
 |🇺🇸|English (Simplified) / en_US|[@GravityScriptsV2](https://github.com/GravityScriptsV2)||
 |🇹🇭|Thai / th|[@PunMCDEV](https://github.com/PunEpicStudio)||
 |🇮🇹|Italiano / it|||
-|🇸🇪|Swedish / sv|||
+|🇸🇪|Svenska / sv||[@RealDebugg](https://github.com/RealDebugg)|
 |🇫🇷|Français / fr|||
 |🇪🇸|Español / es||[@JVN3S](https://github.com/JVN3S)|
 
