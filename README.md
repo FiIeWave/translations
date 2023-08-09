@@ -16,6 +16,6 @@ Please note that this table **only includes languages that are currently availab
 |🇮🇹|Italiano / it|||
 |🇪🇸|Español / es||[@JVN3S](https://github.com/JVN3S)|
 |🇸🇪|Svenska / sv||[@RealDebugg](https://github.com/RealDebugg)|
-|🇹🇭|ไทย / th||[@blueskychan-dev](https://github.com/blueskychan-dev)|
+|🇹🇭|ไทย / th|[@PunEpicStudio](https://github.com/PunEpicStudio)|[@blueskychan-dev](https://github.com/blueskychan-dev)|
 
 If you would like to maintain a language, please [open an issue](https://github.com/FiIeWave/translations/issues/new/choose) with your request.
