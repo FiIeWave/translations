@@ -39,6 +39,9 @@
     "maintainer": ["PunEpicStudio"],
     "users": [
       {
+        "github": "PunEpicStudio"
+      },
+      {
         "github": "blueskychan-dev"
       }
     ]
