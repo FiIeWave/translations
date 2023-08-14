@@ -1,5 +1,12 @@
 {
    "navbarHome": "Hogar",
    "navbarStatus": "Estado",
-   "navbarSupport": "Soporte"
+   "navbarSupport": "Soporte",
+   "emailField": "",
+   "passwordField": "",
+   "registerField": "",
+   "rememberMe": "",
+   "forgotPassword": "",
+   "loginBtn": "",
+   "registerBtn": ""
 }
