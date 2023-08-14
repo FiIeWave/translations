@@ -1,5 +1,12 @@
 {
    "navbarHome": "Home",
    "navbarStatus": "Status",
-   "navbarSupport": "Support"
+   "navbarSupport": "Support",
+   "emailField": "Email",
+   "passwordField": "Password",
+   "registerField": "Register to FileWave",
+   "rememberMe": "Stay logged in",
+   "forgotPassword": "Forgot Password?",
+   "loginBtn": "Login",
+   "registerBtn": "Register"
 }
