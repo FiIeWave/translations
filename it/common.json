@@ -1,5 +1,12 @@
 {
    "navbarHome": "",
    "navbarStatus": "",
-   "navbarSupport": ""
+   "navbarSupport": "",
+   "emailField": "",
+   "passwordField": "",
+   "registerField": "",
+   "rememberMe": "",
+   "forgotPassword": "",
+   "loginBtn": "",
+   "registerBtn": ""
 }
