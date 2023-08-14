@@ -1,5 +1,12 @@
 {
   "navbarHome": "Startseite",
   "navbarStatus": "Status",
-  "navbarSupport": "Hilfe"
+  "navbarSupport": "Hilfe",
+  "emailField": "",
+  "passwordField": "",
+  "registerField": "",
+  "rememberMe": "",
+  "forgotPassword": "",
+  "loginBtn": "",
+  "registerBtn": "" 
 }
