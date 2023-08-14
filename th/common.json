@@ -2,11 +2,11 @@
    "navbarHome": "หน้าหลัก",
    "navbarStatus": "สถานะ",
    "navbarSupport": "ขอความช่วยเหลือ",
-   "emailField": "",
-   "passwordField": "",
-   "registerField": "",
-   "rememberMe": "",
-   "forgotPassword": "",
-   "loginBtn": "",
-   "registerBtn": ""
+   "emailField": "อีเมล",
+   "passwordField": "รหัสผ่าน",
+   "registerField": "สมัครบัญชีที่ Filewave",
+   "rememberMe": "จำบัญชีไว้",
+   "forgotPassword": "ลืมรหัสผ่าน",
+   "loginBtn": "เข้าสู่ระบบ",
+   "registerBtn": "สมัคร"
 }
